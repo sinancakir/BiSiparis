@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BiSiparis</string>
+    <string name="title_activity_food">FoodActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="username">Kullanıcı Adınızı Giriniz</string>
+    <string name="password">Kullanıcı Şifrenizi Giriniz</string>
+    <string name="remember_me">Kullanıcı Adını Hatırla</string>
+    <string name="btn_login">Giriş Yap</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_order">Add Order</string>
+    <string name="soup_name">Çorba :</string>
+    <string name="main_course">Ana Yemek :</string>
+    <string name="drink_name">İçecek</string>
+    <string name="desert_name">Tatlı</string>
+    <string name="will_change">Will Change</string>
+    <string name="take_order">Siparişi Al</string>
+    <string name="customer_name">Müşteri Adı</string>
+    <string name="choosing_soup">Çorba Seçimi</string>
+</resources>
