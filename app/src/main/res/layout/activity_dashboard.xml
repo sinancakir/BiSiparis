@@ -6,17 +6,23 @@
     android:layout_height="wrap_content"
     tools:context="io.android.bisiparis.ui.DashboardActivity">
 
-    <TextView
-        android:id="@+id/activity_dashboard_txtNoOrder"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:visibility="invisible" />
+        android:orientation="vertical">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/activity_dashboard_rcyOrders"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/activity_dashboard_txtNoOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/activity_dashboard_rcyOrders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
 
 </android.support.v4.widget.SwipeRefreshLayout>
